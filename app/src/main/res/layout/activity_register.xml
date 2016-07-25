@@ -18,11 +18,7 @@
             android:layout_weight="1"
             android:layout_height="22dp" />
 
-        <EditText
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="22dp"
-            />
+
     </RelativeLayout>
 
 </LinearLayout>
