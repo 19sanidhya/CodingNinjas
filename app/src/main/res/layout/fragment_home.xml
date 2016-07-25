@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.utilities.sanidhya.codingninjas.HomeFragment">
+
+
+    <Gallery
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/home_gallery"
+        android:layout_gravity="left|top" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:text="Our instructors, - graduates from Stanford University, IITs, IIITs - are Master craftsmen with years of industry experience at Facebook, Amazon, American Express, Times Internet etc. At Coding Ninjas, our mission is to continuously innovate the best ways to train the next generation of developers and to transform the way tech education is delivered. We’re constantly evolving the ways in which we train amazing developers, and staying stagnant is not an option. We approach our educational philosophy as a never-ending journey of self-improvement, and we apply that to everything we do."
+    android:textSize="20dp"
+    android:id="@+id/home_about_us"
+    android:layout_below="@+id/home_gallery"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/home_about_us"
+        android:text="PUZZLE OF THE DAY"
+        android:textSize="50dp"
+        />
+
+</RelativeLayout>
