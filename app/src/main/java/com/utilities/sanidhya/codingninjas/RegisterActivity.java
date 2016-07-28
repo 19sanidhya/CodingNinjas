@@ -4,13 +4,14 @@ import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText firstName;
     EditText lastName;
-    EditText dOB;
+    Button dOB;
     EditText fatherName;
     EditText houseNo;
     EditText district;
@@ -27,7 +28,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
         firstName=(EditText)findViewById(R.id.register_first_name_et);
         lastName=(EditText)findViewById(R.id.register_last_name_et);
-        dOB=(EditText)findViewById(R.id.register_dob_et);
+        dOB = (Button)findViewById(R.id.register_dob_b);
         fatherName=(EditText)findViewById(R.id.register_father_name_et);
         houseNo=(EditText)findViewById(R.id.register_house_et);
         district=(EditText)findViewById(R.id.register_district_et);
@@ -50,6 +51,6 @@ public class RegisterActivity extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
-            }
+    }
 
 }

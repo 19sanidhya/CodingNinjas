@@ -8,16 +8,12 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="24" />
 
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- if you want to load images from a file OR from the internet -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,30 +21,31 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.utilities.sanidhya.codingninjas.RegisterActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity
-            android:name="com.utilities.sanidhya.codingninjas.LoginActivity"
-            android:label="@string/title_activity_login" >
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.utilities.sanidhya.codingninjas.ThirdPartyLibraryActivity" />
-        <activity android:name="com.utilities.sanidhya.codingninjas.MainActivity" >
+            android:name="com.utilities.sanidhya.codingninjas.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.utilities.sanidhya.codingninjas.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.utilities.sanidhya.codingninjas.PuzzleOfTheDay"
+            android:label="@string/title_activity_puzzle_of_the_day" >
+        </activity>
+        <activity
+            android:name="com.utilities.sanidhya.codingninjas.AskOurExperts"
+            android:label="@string/title_activity_ask_our_experts" >
+        </activity>
+        <activity
+            android:name="com.utilities.sanidhya.codingninjas.RegisterActivity"
+            android:label="@string/title_activity_register" >
         </activity>
     </application>
 

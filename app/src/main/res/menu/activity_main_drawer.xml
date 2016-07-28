@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_puzzle_of_the_day"
+            android:title="Puzzle of the day" />
+        <item
+            android:id="@+id/nav_find_ninja_friends"
+            android:title="Find ninja friends" />
+        <item
+            android:id="@+id/nav_upcoming_events"
+            android:title="Upcoming events" />
+        <item
+            android:id="@+id/nav_upcoming_batches"
+            android:title="Upcoming batches" />
+        <item
+            android:id="@+id/nav_ask_our_experts"
+            android:title="Ask our experts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:title="Register" />
+            <item
+                android:id="@+id/nav_sign_in"
+                android:title="SignIn" />
+        </menu>
+    </item>
+
+</menu>

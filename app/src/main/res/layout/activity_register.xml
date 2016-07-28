@@ -13,93 +13,93 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-<android.support.v7.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-
-    android:layout_marginTop="7dp"
-    android:layout_marginBottom="7dp">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="5dp"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:text="First Name"
-            android:textSize="18dp"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:hint=""
-            android:id="@+id/register_first_name_et"
-            android:textSize="18dp"
-            />
-        </LinearLayout>
-        <LinearLayout
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Last Name"
-                android:textSize="18dp"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint=""
-                android:id="@+id/register_last_name_et"
-                android:textSize="18dp"
-                />
-        </LinearLayout>
-    </LinearLayout>
-</android.support.v7.widget.CardView>
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp">
-        <LinearLayout
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="First Name"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:id="@+id/register_first_name_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Last Name"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:id="@+id/register_last_name_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Date Of Birth"
-                android:textSize="18dp"
-                android:layout_height="wrap_content" />
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Select Date"
-                android:id="@+id/register_dob_b"
+                android:paddingLeft="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Date Of Birth"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content" />
 
-                android:textSize="16dp"
-                />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Select Date"
+                    android:id="@+id/register_dob_b"
+
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
@@ -128,74 +128,156 @@
                     />
             </LinearLayout>
         </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp">
-        <LinearLayout
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:orientation="vertical">
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="House No./Street No."
+                        android:textSize="18dp"
+                        android:paddingBottom="6dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
+                        android:hint=""
+                        android:id="@+id/register_house_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="District"
+                        android:textSize="18dp"
+                        android:layout_gravity="bottom"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:inputType="textPostalAddress"
+                        android:id="@+id/register_district_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="City"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:inputType="textPostalAddress"
+                        android:id="@+id/register_city_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="State"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:inputType="textPostalAddress"
+                        android:id="@+id/register_state_et"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
                 android:orientation="horizontal">
-
-
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:text="House No./Street No."
+                    android:text="Email id"
                     android:textSize="18dp"
-                    android:paddingBottom="6dp"
                     android:layout_height="wrap_content" />
 
                 <EditText
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:inputType="textPostalAddress"
+                    android:inputType="textEmailAddress"
                     android:hint=""
-                    android:id="@+id/register_house_et"
+                    android:id="@+id/register_email_id_et"
                     android:textSize="18dp"
                     />
             </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
                 android:orientation="horizontal">
-
-
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:text="District"
-                    android:textSize="18dp"
-                    android:layout_gravity="bottom"
-                    android:layout_height="wrap_content" />
-
-                <EditText
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:hint=""
-                    android:inputType="textPostalAddress"
-                    android:id="@+id/register_district_et"
-                    android:textSize="18dp"
-                    />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:text="City"
+                    android:text="Mobile No."
                     android:textSize="18dp"
                     android:layout_height="wrap_content" />
 
@@ -203,22 +285,29 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:inputType="number"
                     android:hint=""
-                    android:inputType="textPostalAddress"
-                    android:id="@+id/register_city_et"
+                    android:id="@+id/register_mobile_et"
                     android:textSize="18dp"
                     />
             </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
                 android:orientation="horizontal">
-
-
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:text="State"
+                    android:text="College Name"
                     android:textSize="18dp"
                     android:layout_height="wrap_content" />
 
@@ -227,100 +316,11 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:hint=""
-                    android:inputType="textPostalAddress"
-                    android:id="@+id/register_state_et"
+                    android:id="@+id/register_college_et"
                     android:textSize="18dp"
                     />
             </LinearLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Email id"
-                android:textSize="18dp"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint=""
-                android:id="@+id/register_email_id_et"
-                android:textSize="18dp"
-                />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="Mobile No."
-                android:textSize="18dp"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint=""
-                android:id="@+id/register_mobile_et"
-                android:textSize="18dp"
-                />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="5dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:text="College Name"
-                android:textSize="18dp"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:hint=""
-                android:id="@+id/register_college_et"
-                android:textSize="18dp"
-                />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
 
 
         <android.support.v7.widget.CardView
@@ -351,5 +351,5 @@
                     />
             </LinearLayout>
         </android.support.v7.widget.CardView>
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>

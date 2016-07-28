@@ -89,14 +89,14 @@
                 android:textSize="18dp"
                 android:layout_height="wrap_content" />
 
-            <Button
+            <EditText
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Select Date"
-                android:id="@+id/register_dob_b"
-
-                android:textSize="16dp"
+                android:hint=""
+                android:id="@+id/register_dob_et"
+                android:clickable="true"
+                android:textSize="18dp"
                 />
         </LinearLayout>
     </android.support.v7.widget.CardView>
