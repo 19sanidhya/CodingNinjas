@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/sahil/AndroidStudioProjects/AndroidStudioProjects/CodingNinjas/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
-        "source": "/home/sahil/AndroidStudioProjects/AndroidStudioProjects/CodingNinjas/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\home\\sahil\\CodingNinjas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\home\\sahil\\CodingNinjas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kumar\\Downloads\\Compressed\\CodingNinjas\\CodingNinjas\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\kumar\\Downloads\\Compressed\\CodingNinjas\\CodingNinjas\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

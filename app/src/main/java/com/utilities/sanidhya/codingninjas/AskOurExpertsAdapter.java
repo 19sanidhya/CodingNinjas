@@ -38,7 +38,7 @@ public class AskOurExpertsAdapter extends RecyclerView.Adapter<AskOurExpertsAdap
 
     @Override
     public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(mContext).inflate(R.layout.questions_to_ask_our_experts,parent,false);
+        View view = LayoutInflater.from(mContext).inflate(R.layout.list_questions,parent,false);
         return new Holder(view);
     }
 

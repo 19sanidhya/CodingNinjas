@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textColor="@color/white"
+    android:textAllCaps="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:background="@color/greyishblack"
+    android:id="@+id/courseOverviewNameTextView"
+    />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:fontFamily="casual"
+    android:id="@+id/courseOverviewTitleTextView"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="OVERVIEW"
+    android:textSize="22dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/black"/>
+
+    <View
+    android:layout_width="150dp"
+    android:layout_height="1dp"
+    android:layout_gravity="center"
+    android:background="@color/darkOrange"/>
+
+    <TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Looking for a new career in computer programming? Trying to understand just how a programmer can communicate with a computer to design software? You've come to the right place. Now you can be a C++ Coder Ninja! C++ is an Object Oriented Programming Language that is powerful, efficient and compact. It includes concepts like Polymorphism, Dynamic Binding, Data hiding, Operator encapsulation and inheritance C++ is an updated version of the popular C language. It's enhanced to be object-oriented and functions as a high-level computer programming language. Our curriculum is designed to make students proficient in programming. They will be solving approximately 200 problems throughout the course which will enhance their programming skills and knowledge of data structures."
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="WHAT YOU WILL LEARN:"
+    android:textSize="22dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/black"/>
+
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/courseOverviewWhatYouWillLearnRecyclerView"/>
+
+    </LinearLayout>

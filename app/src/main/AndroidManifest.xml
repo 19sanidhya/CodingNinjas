@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         <intent-filter>
@@ -24,31 +24,29 @@
         </activity>
 
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login">
-
-
-        </activity>
+            android:name=".activities.LoginActivity"
+            android:label="@string/title_activity_login"/>
 
         <activity
             android:name=".PuzzleOfTheDay"
-            android:label="@string/title_activity_puzzle_of_the_day">
-
-        </activity>
+            android:label="@string/title_activity_puzzle_of_the_day"/>
 
         <activity
             android:name=".AskOurExperts"
-            android:label="@string/title_activity_ask_our_experts">
-
-
-        </activity>
+            android:label="@string/title_activity_ask_our_experts"/>
 
         <activity
-            android:name=".RegisterActivity"
-            android:label="@string/title_activity_register">
+            android:name=".activities.RegisterActivity"
+            android:label="@string/title_activity_register"/>
 
+        <activity android:name=".activities.CourseActivity"
+            android:label="Courses"/>
 
-        </activity>
+        <activity android:name=".activities.FAQsActivity"
+            android:label="FAQs"/>
+
+        <activity android:name=".activities.MentorsActivity"
+            android:label="Mentors"/>
 
     </application>
 

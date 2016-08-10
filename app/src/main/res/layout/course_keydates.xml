@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When to Apply"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/courseKeydatesApplyTitleTextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/courseKeydatesApplyTextView"
+            android:textColor="@color/greyishblack"
+            android:textStyle="bold"
+            android:text="6-10 weeks before your intended start date."/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/courseKeydatesApplyDetailsTextView"
+            android:textColor="@color/black"
+            android:text="For admissions, we recommend you apply 6-10 weeks before your desired start date as our batches get filled with in 15-20 days we announce them. The sooner your enroll yourself, the better!"
+            />
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight="1"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Prep Course"-->
+            <!--android:textStyle="bold"-->
+
+            <!--android:textSize="15dp"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:id="@+id/prepcoursetitle"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+
+        <!--<View-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@color/gray"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/prepcourse"-->
+            <!--android:textColor="@color/greyishblack"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="Length: 20-30 hours"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/prepcoursedetails"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:text="Completed remotely at your own pace. We will provide you some pre-course assignments which you will have to submit before the course commencement."-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+        </android.support.v7.widget.CardView>
+
+
+</ScrollView>

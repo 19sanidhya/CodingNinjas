@@ -35,7 +35,7 @@ public class PuzzleOfTheDayScoresAdapter extends RecyclerView.Adapter<PuzzleOfTh
 
     @Override
     public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(mContext).inflate(R.layout.puzzle_scores,parent,false);
+        View view = LayoutInflater.from(mContext).inflate(R.layout.list_puzzle_scores,parent,false);
         return new Holder(view);
     }
 
